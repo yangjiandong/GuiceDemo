@@ -1,4 +1,4 @@
-package com.pstreets.guice.demo;
+package com.pstreets.guice.demo.utils;
 
 import android.content.Context;
 

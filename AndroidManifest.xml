@@ -20,7 +20,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InjectViewDemo"/>
+        <activity android:name=".InjectViewDemo2" />
+        
+        <activity android:name=".InjectViewDemo" >
+        </activity>
+        <activity
+            android:name=".InjectContextDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StandardInjectionDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".InjectExtraDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".InjectExtraReceiver"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

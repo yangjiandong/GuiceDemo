@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.google.inject.Inject;
 import com.google.inject.Injector;
 import com.pstreets.guice.demo.service.IGreetingService;
+import com.pstreets.guice.demo.utils.ContextInfo;
 
 public class GuiceDemo extends RoboActivity {
 
@@ -41,7 +42,17 @@ public class GuiceDemo extends RoboActivity {
 
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(GuiceDemo.this, InjectViewDemo.class));
+				startActivity(new Intent(GuiceDemo.this, InjectViewDemo2.class));
+
+			}
+		});
+
+		Button bt2 = (Button) findViewById(R.id.button2);
+		bt2.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(GuiceDemo.this, InjectExtraDemo.class));
 
 			}
 		});
