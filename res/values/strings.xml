@@ -2,4 +2,6 @@
 <resources>
     <string name="hello">Hello World, GuiceDemo!</string>
     <string name="app_name">Guice Demo</string>
+    <string name="injectview">injectview</string>
+    <string name="clickmebutton">click</string>
 </resources>

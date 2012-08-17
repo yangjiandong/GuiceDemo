@@ -1,0 +1,5 @@
+TODO
+====
+
+1. 08-17 15:18:02.635: W/nalizableReferenceQueue(28493): java.io.FileNotFoundException: com/google/inject/internal/util/$Finalizer.class
+

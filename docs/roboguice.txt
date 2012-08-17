@@ -1,0 +1,27 @@
+why use ?
+=========
+
+1. 自动创建类的应用,减少new factory机会
+
+2. 减少耦合,方便测试
+
+Roboguice支持的标准注入有如下
+==============================
+
+@Inject ContentResolver contentResolver;
+@Inject AssetManager assetManager;
+@Inject Resources resources;
+@Inject LocationManager locationManager;
+@Inject WindowManager windowManager;
+@Inject LayoutInflater layoutInflater;
+@Inject ActivityManager activityManager;
+@Inject PowerManager powerManager;
+@Inject AlarmManager alarmManager;
+@Inject NotificationManager notificationManager;
+@Inject KeyguardManager keyguardManager;
+@Inject SearchManager searchManager;
+@Inject Vibrator vibrator;
+@Inject ConnectivityManager connectivityManager;
+@Inject WifiManager wifiManager;
+@Inject InputMethodManager inputMethodManager;
+@Inject SensorManager sensorManager;
