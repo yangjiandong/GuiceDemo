@@ -1,6 +1,14 @@
 roboguice
 =========
 
+2012.08.28
+----------
+
+   1. roboguice.xml
+
+   2. 加入listview 系列
+   http://blog.stylingandroid.com/archives/605#
+
 2012.08.16
 ----------
 
@@ -16,5 +24,5 @@ roboguice
    roboguice-2.0.jar
 
    3. http://www.imobilebbs.com/wordpress/?p=2573
-   
+
    --END
